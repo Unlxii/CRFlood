@@ -3,16 +3,12 @@ import { IoReorderThree } from "react-icons/io5";
 const Navbar = () => {
   return (
     <>
-      {
-        <nav className="bg-Navcolor w-screen h-[48px] flex-auto mb-0">
-          <div className="pt-[10px] pl-[17px] text-white h-[28px] w-screen font-Head pb-0">
-            CRFflood
-          </div>
-          <div className="pl-[333px] -mt-4">
-            <IoReorderThree size={22} color="#ffffff" />
-          </div>
-        </nav>
-      }
+      <nav className="bg-Navcolor w-full h-[48px] flex items-center justify-between px-4 md:px-8 lg:px-16">
+        <div className="text-white font-Head text-xl">CRFflood</div>
+        <div className="flex items-center" onClick={() => {}}>
+          <IoReorderThree className="block " size={22} color="#ffffff" />
+        </div>
+      </nav>
     </>
   );
 };

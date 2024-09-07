@@ -21,7 +21,7 @@ function App() {
   // }, []);
   return (
     <>
-      <div className=" justify-center justify-items-center">
+      <div className=" justify-center justify-items-center bg-main w-screen h-screen">
         <Crflood />
       </div>
     </>

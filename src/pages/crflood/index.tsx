@@ -1,17 +1,17 @@
 import Graphstatus from "../../Components/Graph/graphstatus";
 import Navbar from "../../Components/Navbar/navbar";
-import Stations from "../../Components/Stations/stations";
+import Statustab from "../../Components/Statustab/statustab";
 
 const Crflood = () => {
   return (
     <>
-      <div className=" justify-center">
+      <div className="flex flex-col justify-center items-center w-full">
         <Navbar />
-        <div className=" ml-[37px] mt-[15px] w-fit h-[23px] text-font">
+        <div className="w-fit  mt-[15px] h-[23px] text-font mr-[202px]">
           <p>ระดับน้ำ : แม่จัน</p>
         </div>
         <Graphstatus />
-        <Stations />
+        <Statustab />
       </div>
     </>
   );

@@ -1,12 +1,7 @@
 import React from "react";
-import { TEChart, TEChartData } from "tw-elements-react";
+import { TEChart } from "tw-elements-react";
 
-interface ChartDataset {
-  label: string;
-  data: number[];
-}
-
-const chartData: TEChartData = {
+const chartData = {
   labels: [
     "Monday",
     "Tuesday",
